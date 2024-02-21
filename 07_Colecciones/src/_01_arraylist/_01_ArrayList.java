@@ -90,6 +90,8 @@ public class _01_ArrayList {
 		
 		//La clase String tambien es inmutable
 		String s = "Sherlock";
+		//Aquí lo que estamos cambiando es la referencia de sitio,
+		//pero valor del objeto no se cambia (permanece inmutable)
 		s = "Dr. Wattson";
 		
 		String s2 = "Sherlock";
