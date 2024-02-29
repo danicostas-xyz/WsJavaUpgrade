@@ -73,7 +73,7 @@ public class MainOrdenador {
 		Ordenador o1 = new Ordenador();
 		o1.setListaPerifericos(listaPerifericosOrdenador);
 		o1.setListaRAM(listaRAMOrdenador);
-		//o1.setPlacaBase(pb1);
+		o1.setPlacaBase(pb1);
 		o1.setProcesador(p1);
 		o1.setTarjetaGrafica(tg1);
 		o1.calcularPrecio();
