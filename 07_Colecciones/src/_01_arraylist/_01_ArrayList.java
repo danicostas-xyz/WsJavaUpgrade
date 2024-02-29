@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class _01_ArrayList {
 
-	//Clase sobre los array list
+	//Clase sobre los array list de la semana del 22/02
 	public static void main(String[] args) {
 		//Los arrays "normales" en java tienen un problema y es que son
 		//estaticos, es decir, una vez creado el array, el tamaño no
