@@ -81,7 +81,7 @@ public class _01_ArrayList {
 		int numero1 = 5;
 		//Integer numeroObjeto = new Integer(5);
 		//Normalmente esta el concepto "auto wrapper" que hace
-		//que hava convierta directamente un primitivo a un objeto
+		//que Java convierta directamente un primitivo a un objeto
 		Integer numeroObjeto = 5;//Esto creo un objeto con el valor 5 internamente
 		//Los objetos de tipo wrapper son "inmutables". Un objeto inmutable
 		//se define como un objeto el cual no se puede cambiar NUNCA el valor
