@@ -106,13 +106,13 @@ public class _01_FOR_01 {
 		
 		//Las tres maneras anteriores son equivalente, imprimen 10 veces por pantalla
 		
-		//Podemos seguir usando variables para las condiones de bucle
+		//Podemos seguir usando variables para las condiciones de bucle
 		int numero = 10;
 		for(int j = 1; j <= numero; j++) {
 			System.out.println("Hola 10 veces");
 		}
 		
-		//Podemos invocar funciones dentro del un bucle "for"
+		//Podemos invocar funciones dentro de un bucle "for"
 		for(int j = 1; j <= numero; j++) {
 			imprimirNumero(j);
 		}
