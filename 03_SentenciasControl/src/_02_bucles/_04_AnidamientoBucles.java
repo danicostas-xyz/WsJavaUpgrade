@@ -30,7 +30,7 @@ public class _04_AnidamientoBucles {
 		//Mejor aplicar anidamiento de bucles
 		
 		System.out.println("-----------------------------------------");
-		//Este bulce va a llevar el control del numero de veces que queremos repetir la
+		//Este bucle va a llevar el control del numero de veces que queremos repetir la
 		// tabla de multiplicar
 		for(int i = 1; i <= 10; i ++) {
 			System.out.println("Tabla de multiplicar del " + i);

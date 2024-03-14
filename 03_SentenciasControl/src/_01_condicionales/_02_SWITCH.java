@@ -113,5 +113,6 @@ public class _02_SWITCH {
 		}
 		
 		System.out.println("Fin del programa");
+		sc.close();
 	}
 }

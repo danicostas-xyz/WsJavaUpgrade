@@ -108,7 +108,7 @@ public class _01_Arrays {
 		a) te imprime los numeros del 1 al 1000
 		b) te imprime los numeros del 0 al 1000
 		c) te imprime los numeros del 0 al 999
-		d) error en tiempo de complacion
+		d) error en tiempo de compilacion
 		e) error en tiempo de ejecución
 		*/
 		

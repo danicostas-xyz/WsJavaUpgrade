@@ -48,6 +48,7 @@ public class MainEnumerados {
 		System.out.println(p1);
 		d1.setTipoVia(TipoVia.CAÑADA_REAL);
 		System.out.println(p1);
+		sc.close();
 	
 	}
 

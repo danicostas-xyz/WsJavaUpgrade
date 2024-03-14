@@ -83,6 +83,6 @@ public class _02_WHILE {
 				System.out.println("El numero es incorrecto");
 			}			
 		}
-		
+		sc.close();
 	}
 }

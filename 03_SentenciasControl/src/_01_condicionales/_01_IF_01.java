@@ -97,6 +97,8 @@ public class _01_IF_01 {
 		//que el bloque 'else' solo puede haber uno (si lo hay).
 		
 		System.out.println("Fin de programa");
+		
+		sc.close();
 	}
 
 }
