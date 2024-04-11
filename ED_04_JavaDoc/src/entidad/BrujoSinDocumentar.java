@@ -43,6 +43,19 @@ public class BrujoSinDocumentar {
 		return false;
 	}
 	
+	public void succionarAlma(Brujo brujo) {
+		if(brujo.isTieneAlma()) {
+			this.tieneAlma = true;
+			brujo.setTieneAlma(false);
+			this.vida += brujo.getVida();
+			System.out.println("Alma succionada!");
+		}else {
+			System.out.println("No se ha podido succionar el alma");
+		}
+	}
+	
+	
+	
 	// Los getter y setters no hace falta documentarlos normalmente
 	public int getVida() {
 		return vida;
