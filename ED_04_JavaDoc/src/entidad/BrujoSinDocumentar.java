@@ -26,13 +26,6 @@ public class BrujoSinDocumentar {
 	 */
 	private int poder;	
 	
-	/**
-	 * Metodo que establece el poder al brujo. No se admiten negativos, en 
-	 * caso de que el poder que se intente establecer sea negativo, el poder
-	 * se establecera a 0
-	 * 
-	 * @param poder representa el poder que intentamos establecer
-	 */
 	public void setPoder(int poder) {
 		if(poder < 0) {
 			poder = 0;
@@ -41,14 +34,6 @@ public class BrujoSinDocumentar {
 		}
 	}
 	
-	/**
-	 * Metodo que devuelve si el brujo esta muerto o no esta muerto en base
-	 * a su vida y a si tiene alma
-	 * 
-	 * @return si la vida del brujo es igual o menor que cero devuelve true.
-	 * Si brujo tiene la vida positiva pero no tiene alma, el metodo 
-	 * devuelve true. Devuelve false para otros casos
-	 */
 	public boolean estaMuerto() {
 		if(vida <= 0) {
 			return true;
