@@ -2,7 +2,7 @@ package basico;
 import java.util.Date;
 
 /**
- * Ejemplo de creaci�n de documentación para Javadoc.
+ * Ejemplo de creación de documentación para Javadoc.
  * <br>
  * Aquí debería ir una descripción de lo que hace la clase y sus objetivos.
  * <br>
