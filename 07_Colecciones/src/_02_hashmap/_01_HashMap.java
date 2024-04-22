@@ -40,6 +40,11 @@ public class _01_HashMap {
 		temperatura = hashmapCiudadTemperatura.get("MADRID");
 		System.out.println(temperatura);
 		
+		//Podemos saber si una clave existe con el método containsKey()
+		//que devuelve true o false
+		System.out.println(hashmapCiudadTemperatura.containsKey("Madrid"));
+		System.out.println(hashmapCiudadTemperatura.containsKey("MADRID"));		
+		
 		//El objetivo de los hashmap es diferente a de los arrays
 		//siven para hacer busquedas rápidas, no suelen servir
 		//para recorrerlos
