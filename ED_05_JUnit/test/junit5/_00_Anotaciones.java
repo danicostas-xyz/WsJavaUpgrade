@@ -25,14 +25,14 @@ class _00_Anotaciones {
 	//los TEST (métodos anotados con @Test). Solo se pone una vez esta anotación
 
 	@BeforeAll
-	static void setUpBeforeClass() throws Exception {
+	static void setUpBeforeClass(){
 		System.out.println("Este metodo se ejecuta una unica vez y al principio");
 	}
 
 	//Este método con la anotacion @AfterAll sera ejecutado DESPUES de TODOS 
 	//los TEST
 	@AfterAll
-	static void tearDownAfterClass() throws Exception {
+	static void tearDownAfterClass(){
 		System.out.println("Este metodo se ejecuta una unica vez y al final");		
 	}
 
@@ -40,7 +40,7 @@ class _00_Anotaciones {
 	//UNO de los TEST
 	//Ejemplo, se ejecutara antes de test1 y antes de test2 (2 veces)
 	@BeforeEach
-	void setUp() throws Exception {
+	void setUp() {
 		System.out.println("Este metodo se ejecuta una vez antes de cada test");
 	}
 
@@ -48,7 +48,7 @@ class _00_Anotaciones {
 	//UNO de los TEST
 	//Ejemplo, se ejecutara despues del test1 y despues del test2
 	@AfterEach
-	void tearDown() throws Exception {
+	void tearDown()  {
 		System.out.println("Este metodo se ejecuta una vez despues de cada test");
 	}
 	
