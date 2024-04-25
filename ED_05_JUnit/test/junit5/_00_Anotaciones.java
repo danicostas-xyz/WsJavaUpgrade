@@ -6,6 +6,8 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
 
 /**
  * @author Felix
@@ -16,6 +18,7 @@ import org.junit.jupiter.api.Test;
  * representativo, lo importante es la anotación que lleve el método.
  *
  */
+@RunWith(Suite.class)
 class _00_Anotaciones {
 	
 	//Este método con la anotacion @BeforeAll se va a ejecutar ANTES de TODOS 
