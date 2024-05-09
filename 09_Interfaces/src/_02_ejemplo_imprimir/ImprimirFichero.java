@@ -15,7 +15,8 @@ public class ImprimirFichero implements Imprimible{
 			//El objeto tiene un método que nos permite escribir
 			//en el fichero, que se llama igual que el método
 			//de la clase "System.out"
-			pw.println(cadena);
+			pw.println(cadena);//LLenamos el buffer con la información
+			pw.flush();//Pasamos la información del buffer al fichero
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
