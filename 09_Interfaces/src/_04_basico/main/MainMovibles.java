@@ -1,11 +1,19 @@
 package _04_basico.main;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import _04_basico.animales.Animal;
 import _04_basico.animales.Cangrejo;
 import _04_basico.animales.Leon;
 import _04_basico.animales.Sexo;
 import _04_basico.animales.Tiburon;
 import _04_basico.animales.Trucha;
+import _04_basico.interfaz.Movible;
+import _04_basico.vehiculos.Camion;
+import _04_basico.vehiculos.Coche;
+import _04_basico.vehiculos.Moto;
+import _04_basico.vehiculos.VehiculoTerrestre;
 
 public class MainMovibles {
 
@@ -15,10 +23,6 @@ public class MainMovibles {
 		t.setPeso(2.2);
 		t.setSexo(Sexo.NO_BINARIO);
 		t.setEdad(1);
-		//Normalmente cuando creamos un objeto usaremos
-		//una referencia de su propio tipo, ya que si no
-		//debemos de hacer un casting
-		//t.setNumeroAletas()
 		Trucha trucha = (Trucha)t;
 		trucha.setNumeroAletas(2);
 		
@@ -40,6 +44,34 @@ public class MainMovibles {
 		tiburon.setPeso(480);
 		tiburon.setEdad(3);
 		tiburon.setSexo(Sexo.FLUIDO);
+		
+		VehiculoTerrestre vh1 = new Camion();
+		vh1.setPeso(2500);
+		
+		VehiculoTerrestre vh2 = new Coche();
+		vh2.setPeso(1000);
+		
+		VehiculoTerrestre vh3 = new Moto();
+		vh3.setPeso(400);
+		
+		List<Movible> listaMovibles = new ArrayList<Movible>();
+		listaMovibles.add(trucha);
+		listaMovibles.add(tiburon);
+		listaMovibles.add(l);
+		listaMovibles.add(c);
+		listaMovibles.add(vh1);
+		listaMovibles.add(vh2);
+		listaMovibles.add(vh3);
+		
+		System.out.println("Moviendo lento a los objetos movibles");
+		listaMovibles.forEach(v -> v.moverseLento());
+		System.out.println("Moviendo rapido a los objetos movibles");
+		//listaMovibles.forEach(v -> v.moverseRapido());
+		
+		//Equivalente a:
+		for(Movible m : listaMovibles) {
+			m.moverseRapido();
+		}
 
 	}
 
