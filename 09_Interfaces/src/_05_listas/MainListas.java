@@ -46,6 +46,11 @@ public class MainListas {
 		listaArrayCoches.add(c2);
 		p.setListaCoches(listaCoches);
 		
+		Almacen<Coche> aCoche = new Almacen<>();
+		aCoche.setDato(c2);
+		
+		Almacen<Persona> aPersona = new Almacen<Persona>();
+		
 	}
 	
 	public static void recorrerLista(List<Coche> lista) {
