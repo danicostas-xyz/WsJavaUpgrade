@@ -1,6 +1,8 @@
-package _01_basico.animales;
+package _04_basico.animales;
 
 import java.util.Objects;
+
+import _04_basico.interfaz.Movible;
 
 /*
  * Las clases abstractas son clases que NO se pueden instanciar.
@@ -14,7 +16,7 @@ import java.util.Objects;
  * pero en cuento la clase tenga un solo método abstracto la 
  * clase DEBE ser abstracta
  */
-public abstract class Animal {
+public abstract class Animal implements Movible{
 	private Sexo sexo;
 	private double peso;
 	private int edad;

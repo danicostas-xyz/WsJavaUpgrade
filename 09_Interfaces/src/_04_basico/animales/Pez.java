@@ -1,4 +1,4 @@
-package _01_basico.animales;
+package _04_basico.animales;
 
 /**
  * Si heredamos de una clase que tiene métodos abstractos, tenemos
@@ -39,6 +39,19 @@ public abstract class Pez extends Animal{
 	public String toString() {
 		return "Pez [numeroAletas=" + numeroAletas + ", getSexo()=" + getSexo() + ", getPeso()=" + getPeso()
 				+ ", getEdad()=" + getEdad() + ", getNombre()=" + getNombre() + "]";
+	}
+
+	@Override
+	public void moverseLento() {
+		double movimiento = 200 - (getPeso() * 0.10) + (25 * numeroAletas);
+		System.out.println("Soy un Pez y me muevo " + movimiento);
+		
+	}
+
+	@Override
+	public void moverseRapido() {
+		double movimiento = 200 - (getPeso() * 0.10) + (50 * numeroAletas);
+		System.out.println("Soy un Pez y me muevo " + movimiento);
 	}
 	
 	

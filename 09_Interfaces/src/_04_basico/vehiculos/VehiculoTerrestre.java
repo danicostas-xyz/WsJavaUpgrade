@@ -1,8 +1,10 @@
-package _01_basico.vehiculos;
+package _04_basico.vehiculos;
 
 import java.util.Objects;
 
-public abstract class VehiculoTerrestre {
+import _04_basico.interfaz.Movible;
+
+public abstract class VehiculoTerrestre implements Movible{
 	private String matricula;
 	private double peso;
 	private int numeroRuedas;

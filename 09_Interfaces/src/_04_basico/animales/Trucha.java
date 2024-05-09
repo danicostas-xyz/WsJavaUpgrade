@@ -1,4 +1,4 @@
-package _01_basico.animales;
+package _04_basico.animales;
 
 public class Trucha extends Pez{
 

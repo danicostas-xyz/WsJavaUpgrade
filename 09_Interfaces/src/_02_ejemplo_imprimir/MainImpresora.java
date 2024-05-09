@@ -14,9 +14,9 @@ public class MainImpresora {
 		//mientras que usar las refencias propias del objeto
 		//hacen que sean dependencias FUERTES
 		
-		ImprimirPantalla impPantalla = new ImprimirPantalla();
-		ImprimirFichero impFichero = new ImprimirFichero();
-		ImprimirImpresora impImpresora = new ImprimirImpresora();
+		Imprimible impPantalla = new ImprimirPantalla();
+		Imprimible impFichero = new ImprimirFichero();
+		Imprimible impImpresora = new ImprimirImpresora();
 		
 		String cadena = "Hola interfaz";
 		impPantalla.imprimir(cadena);
@@ -24,9 +24,12 @@ public class MainImpresora {
 		impImpresora.imprimir(cadena);
 		
 		//Invocamos los métodos concretos
+		//Esta manera NO Estaria bien hecha ya que es mejor
+		//utilizar el código orientado a interfaces
+		/*
 		metodoImprimirPantalla(impPantalla);
 		metodoImprimirImpresora(impImpresora);
-		metodoImprimirFichero(impFichero);
+		metodoImprimirFichero(impFichero);*/
 		
 		//Invocamos el metodo con la interfaz
 		metodoImprimir(impPantalla);
