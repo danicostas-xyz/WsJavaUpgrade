@@ -62,14 +62,6 @@ public class Director extends Empleado {
 		
 	}
 
-
-	@Override
-	public double calcularDespidoProcedente() {
-		double salario = this.calcularSalarioTotal();
-		return salario;
-	}
-
-
 	@Override
 	public double calcularDespidoImporocedente(int aniosTrabajados) {
 		double salario = this.calcularSalarioTotal();
