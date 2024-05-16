@@ -11,5 +11,6 @@ Para importar librerías en java podemos hacer los siguientes pasos
 5. Vamos a la pestaña "libraries" y pulsamos "classpath". Se nos debería habilitar el botón de "add JARs"
 6. Una vez habilitado el botón, lo pulsamos y buscamos el fichero ".jar" que queremos añadir a nuestro proyecto. Pulsamos "OK" y luego "Apply and Close".
 7. Ya deberiamos poder usar las librerías en nuestro proyecto, podemos crear una clase "main" e importar las clases para poder usarlas.
-í
+
+í
 
