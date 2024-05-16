@@ -33,3 +33,9 @@ listaElectricos.add(new Object());//NO
 listaElectricos.add(new Rotemon());//SI
 Mamander m5 = (Mamander)o;//Error en tiempo ejecucion ClassCastException
 Object o2 = 3;//SI, porque java hacer automaticamente un auto wrapper
+var variable = new Rotemon();//SI
+variable = new Rotemon();//SI
+variable = new Micachu();//NO
+var varible2 = new Muniemon();//NO
+var varible3 = new Object();//SI
+variable3 = new Micachu();
