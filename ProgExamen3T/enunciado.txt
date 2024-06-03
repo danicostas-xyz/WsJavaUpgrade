@@ -1,0 +1,21 @@
+Realizar el sistema de entidades necesario para codificar un programa que cumpla con los siguientes requisitos para montar una biblioteca. La biblioteca tendrá el siguiente material bibliográfico: 
+
+Libros, que tendrán un título, una editorial, un autor, un año de publicación y un precio. 
+
+Revistas, que tendrán un título, una editorial, un mes de publicación y un precio. 
+
+Periódicos, que tendrán un título, una editorial, varios redactores (de los cuales solo se quiere guardar el nombre) y un precio. 
+
+También se tendrá en cuenta que:  
+
+El autor de un libro tendrá un nombre y un año de nacimiento. 
+
+La biblioteca, además del material bibliográfico, también tendrá un nombre y una dirección. 
+
+Las entidades tendrán las siguientes funcionalidades o métodos: 
+
+Todo el material bibliográfico tendrá la opción de devolver si dicho material es caro o barato, pero va en función del tipo de material bibliográfico. Los libros son caros si su precio es mayor que 50 euros, las revistas en caso de que el precio sea superior a 20 euros, y los periódicos si el precio es superior a 5 euros. 
+
+En el caso de los libros, se quiere saber cuántos años hay de diferencia entre el año de publicación del libro y el año de nacimiento del autor. 
+
+Para realizar las entidades y las funcionalidades, se deben aplicar todos los conceptos de herencia vistos en clase (donde proceda). No es necesario crear los constructores ni que tenga estructura JavaBean. Tampoco es necesario crear objetos ni el método “main”. 
