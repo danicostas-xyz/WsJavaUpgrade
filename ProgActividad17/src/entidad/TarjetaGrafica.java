@@ -6,6 +6,7 @@ public class TarjetaGrafica {
 	private int nucleosCuda;
 	private double precio;
 	private RAM ram;
+	
 	public String getMarca() {
 		return marca;
 	}

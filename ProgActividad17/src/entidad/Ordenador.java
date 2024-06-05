@@ -9,6 +9,7 @@ public class Ordenador {
 	private PlacaBase placaBase;
 	private ArrayList<RAM> listaRAM;
 	private ArrayList<Periferico> listaPerifericos;
+	
 	public double getPrecio() {
 		return precio;
 	}
